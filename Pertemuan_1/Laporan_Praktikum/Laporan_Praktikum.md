@@ -135,12 +135,15 @@ Behavior
 1. Mobil
 <img src="Foto_Program/mobil.png">
 Program ini menunjukan list mobil dengan state merek,nopol,no mesin,untuk orang,keperluan. Untuk class berbeda maka saya tambahkan mobil SUV dan mobil city car, perbedaan mobil SUV dengan mobil lainya adalah pengerak roda maka dalam class mobilSUV saya beri method pengerak roda sedangkan untuk mobil city car saya berikan method tipe ban karena tipe ban city car halus berbeda dengan lainya namun tetap saja mewarisi mobil.
+<br>
 2. Laptop
 <img src="Foto_Program/laptop.png">
 Program ini menunjukan list jenis jenis laptop dengan state mere,warna,ram,memory penyimpanan,prosesor,tipe laptop. untuk class berbeda maka saya tambahkan laptop gaming dan laptop multimedia, perbedaan laptop gaming adalah tambahan fitur warna cahaya pada keyboard agar memudahkan playernya dan juga speed up software yang bisa ngeboost game game berat maka saya tambahkan method tipe keyboard dan speedup, sedangkan untuk laptop multimedia ialah vga dual agar pemrosesan rendering dengan sangat cepat maka saya menambahkan method vga namun tetap saja mewarisi laptop.
+<br>
 3. Smartphone
 <img src="Foto_Program/hp.png">
 program ini menunjukan 2 tipe smartphone yaitu gaming dan pengunaan standar smartphone memiliki state merek,tipe smartphone,prosesor,ram,internal,kamera_depan,kamera_belakang saya tambahkan class baru untuk class smartphone gaming yang membedakan dengan smartphone biasa adalah support pendingin,pad dan booster untuk bermain game namun tetap saja mewarisi smartphone.
+<br>
 4. Kasur
 <img src="Foto_Program/kasur.png">
 program ini menunjukan 2 tipe kasur yaitu kasur biasa dan spirng bed saya tambahkan class spring bed karena berbeda dengan kasur lainya spring bed dilengkapi pegas maka saya beri method pegas namun tetap saja mewarisi kasur
