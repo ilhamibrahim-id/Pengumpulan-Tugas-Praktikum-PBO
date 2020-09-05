@@ -1,9 +1,6 @@
 # Laporan Tugas Minggu 1 Mata Kuliah PBO
-<hr>
-<marquee> Pemograman Berbasis Objek </marquee>
-<hr>
 
-# Pengamatan Saya Mencari 4 Buah Objek Yang Memiliki Konsep Pewarisan (inheritance) Antara Lain :
+## Pengamatan Saya Mencari 4 Buah Objek Yang Memiliki Konsep Pewarisan (inheritance) Antara Lain :
 
 1. Kasur
 <img src="Foto/Foto_Objek/kasur.jpeg">
@@ -25,6 +22,7 @@ Behavior
 - Tekanan Pegas
 <br>
 - Gerakan Kasur (Naik/Turun)
+<br>
 <br>
 2. Mobil
 <img src="Foto/Foto_Objek/mobil.jpeg">
@@ -67,6 +65,7 @@ Behavior
 <br>
 - Gerakan Posisi Duduk 
 <br>
+<br>
 3. Laptop
 <img src="Foto/Foto_Objek/laptop.jpeg">
 Saya Memilih Laptop Karena Memiliki Pewarisan contoh Laptop Gaming yang dimana keyboardnya full colour led berbeda dengan laptop lainya namun tetap mewarisi laptop.
@@ -99,6 +98,7 @@ Behavior
 - tambah volume
 <br>
 - kurangi volume
+<br>
 <br>
 4. Smartphone 
 <img src="Foto/Foto_Objek/hp.jpeg">
