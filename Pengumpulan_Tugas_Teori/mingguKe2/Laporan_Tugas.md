@@ -2,12 +2,13 @@
 
 1.	Jurusan Teknologi Informasi akan membangun system informasi pemberian nilai secara online kepada setiap mahasiswa yang menempuh perkuliahan. Setiap nilai mata kuliah yang akan dimasukkan dalam system di inputkan secara langsung oleh dosen yang bersangkutan. Dari system ini diharapkan mahasiswa akan lebih mudah untuk melakukan evaluasi terhadap setiap matakuliah yang sudah pernah diikuti.
 <br>
-    a.	Identifikasi, ada berapa class yang bisa dibuat dari sistem diatas ?
+    I.	Identifikasi, ada berapa class yang bisa dibuat dari sistem diatas ?
     <br>
     -  Ada 3 yaitu class Mahasiswa,Dosen Dan Mata Kuliah.
 <br>
 <br>
-    b.	Implementasikan class dalam bahasa pemrograman java dan class diagram!
+    II.	Implementasikan class dalam bahasa pemrograman java dan class diagram!
+    <br>
     <br>
     a. dalam bentuk class diagram : 
     <img src="img/classNo1.png">
