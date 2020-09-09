@@ -28,7 +28,7 @@
 2. Tambahkan secara lengkap attribute pada setiap class yang sudah anda identifikasi pada latihan sebelumnya (Latihan 1)?
 <br>
     a. class diagram
-    <img src="img/classNo1.png">
+    <img src="img/classNo2.png">
     b. java kode
     <br>
     -class Mahasiswa
