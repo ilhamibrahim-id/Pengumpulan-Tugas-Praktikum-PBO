@@ -117,11 +117,17 @@ konstruktor untuk menginisialisasi kepada sebuah objek pada objek pertama kali d
 karena pada method set age maksimal agenya adalah 30.<br>
 3. Ubah	program	diatas agar atribut age	dapat diberi nilai maksimal 30 dan minimal 18.<br>
 
-### source code 
+### source code
+- class encapdemo
+
 <img src="img/Screenshot (226).png">
 
+- class encaptest 
+
+<img src="img/Screenshot (242).png">
+
 ### output
-<img src="img/Screenshot (240).png">
+<img src="img/Screenshot (241).png">
 
 4. Pada	sebuah	sistem	informasi	koperasi	simpan	pinjam,	terdapat	class	Anggota	yang	memiliki	
 atribut	antara	lain	nomor	KTP,	nama,	limit	peminjaman,	dan	jumlah	pinjaman.	Anggota	

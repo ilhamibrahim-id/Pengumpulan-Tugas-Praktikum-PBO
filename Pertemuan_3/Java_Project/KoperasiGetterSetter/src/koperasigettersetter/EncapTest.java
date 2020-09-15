@@ -7,5 +7,11 @@ public class EncapTest {
         
         System.out.println("Name : " + encap.getName());
         System.out.println("Age : " + encap.getAge());
+        
+        encap.setName("Ilham");
+        encap.setAge(15);
+        
+        System.out.println("Name : " + encap.getName());
+        System.out.println("Age : " + encap.getAge());
     }
 }
