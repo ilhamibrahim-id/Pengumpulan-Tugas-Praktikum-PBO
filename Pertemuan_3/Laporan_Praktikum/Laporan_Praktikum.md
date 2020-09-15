@@ -112,11 +112,17 @@ konstruktor untuk menginisialisasi kepada sebuah objek pada objek pertama kali d
 ### Pertanyaan 
 
 1. 
-
+<img src="img/Screenshot (240).png">
 2. Pada	program	diatas,	pada class EncapTest kita mengeset age dengan nilai 35,	namun pada saat ditampilkan	ke layar nilainya  30,	jelaskan mengapa.<br>
 karena pada method set age maksimal agenya adalah 30.<br>
 3. Ubah	program	diatas agar atribut age	dapat diberi nilai maksimal 30 dan minimal 18.<br>
+
+### source code 
 <img src="img/Screenshot (226).png">
+
+### output
+<img src="img/Screenshot (240).png">
+
 4. Pada	sebuah	sistem	informasi	koperasi	simpan	pinjam,	terdapat	class	Anggota	yang	memiliki	
 atribut	antara	lain	nomor	KTP,	nama,	limit	peminjaman,	dan	jumlah	pinjaman.	Anggota	
 dapat	meminjam	uang	dengan	batas	limit	peminjaman	yang	ditentukan.	Anggota	juga	dapat	
