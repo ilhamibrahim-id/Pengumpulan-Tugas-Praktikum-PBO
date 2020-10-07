@@ -17,7 +17,7 @@ public class segitiga extends bangunDatar{
         System.out.println("luas segitiga : " + luas);
         return luas;
     }
-    public float keliling(){
+    float keliling(){
         float sisi = (float) ((Math.pow(tinggi,2)) -  (Math.pow(1/2*alas,2)));
         float keliling = sisi + sisi + alas;
         System.out.println("Luas Segitiga: " + keliling);
