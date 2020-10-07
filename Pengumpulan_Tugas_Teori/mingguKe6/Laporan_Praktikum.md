@@ -1,12 +1,10 @@
 # Laporan Praktikum Minggu Ke 6
 ## Output
 
-<img>
-
-## Source code
-
 <img src="img/Screenshot (265).png">
 <img src="img/Screenshot (266).png">
+
+## Source code
 
 ### main
 
