@@ -11,27 +11,22 @@ package pertemuan6.tugas;
  */
 public class Dosen extends Pegawai {
 
-    public int jumlahSKS, TARIF_SKS, gaji;
-
+     private int jumlahSKS;
+    private final int TARIF_SKS = 150000;
+    
+    public Dosen(){
+        
+    }
+ 
     public Dosen(String nip, String nama, String alamat) {
         super(nip, nama, alamat);
     }
-
-    public void setTarifSKS(int TarifSKS) {
-        this.TARIF_SKS = TarifSKS;
-    }
-
-    public void setSKS(int SKS) {
+    
+    public void setSKS(int SKS){
         this.jumlahSKS = SKS;
     }
-    public int getSKS(){
-        return jumlahSKS;
-    }
-    public int getTarifSKS(){
-        return TARIF_SKS;
-    }
-    public void info(){
-        System.out.println("jumlah sks : " + jumlahSKS);
-        System.out.println("tarif sks : " + TARIF_SKS);
+    public int getGaji(){
+        int total_gaji = jumlahSKS*TARIF_SKS;
+        return total_gaji+super.getGaji();
     }
 }

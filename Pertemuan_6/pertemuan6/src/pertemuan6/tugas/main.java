@@ -16,6 +16,9 @@ public class main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int pilih = 0;
+        System.out.println("Masukan Banyaknya Karyawan : ");
+        int banyak = input.nextInt();
+        DaftarGaji dg = new DaftarGaji(banyak);
         do {
             System.out.println("====================================================");
             System.out.println("                TUGAS PERTEMUAN 6");
@@ -28,24 +31,39 @@ public class main {
             pilih = input.nextInt();
             switch (pilih) {
                 case 1:
-                    System.out.println("nip : ");
-                    String nip = input.next();
-                    System.out.println("nama : ");
+                    System.out.println("===========STANDAR GAJI KARYAWAN 2 JT=================");
+                    Pegawai p = new Pegawai();
+                    System.out.println("Masukan nama Pegawai : ");
                     String nama = input.next();
-                    System.out.println("alamat : ");
+                    p.setNama(nama);
+                    System.out.println("Masukan Alamat " + nama + " : ");
                     String alamat = input.next();
-                    System.out.println("Gaji : ");
-                    int gaji = input.nextInt();
-                    Pegawai p = new Pegawai(nip, nama, alamat, gaji);
-                    DaftarGaji d = new DaftarGaji();
-                    d.addPegawai(p);
+                    p.setAlamat(alamat);
+                    System.out.println("Masukan Nip " + nama + " : ");
+                    String nip = input.next();
+                    p.setNip(nip);
+                    dg.addPegawai(p);
                     break;
                 case 2:
+                    System.out.println("===========STANDAR GAJI DOSEN 1 SKS X 150.000=================");
+                    Dosen d = new Dosen();
+                    System.out.println("Masukan Nama Dosen : ");
+                    String namaD = input.next();
+                    d.setNama(namaD);
+                    System.out.println("Masukan Alamat " + namaD + " : ");
+                    String alamatD = input.next();
+                    d.setAlamat(alamatD);
+                    System.out.println("Masukan Nip " + namaD + " : ");
+                    String nipD = input.next();
+                    d.setNip(nipD);
+                    System.out.println("Masukan Sks yang di ajar Dosen " + namaD + " : ");
+                    int sks=input.nextInt();
+                    d.setSKS(sks);
+                    dg.addPegawai(d);
                     break;
                 case 3:
-                    d.printSemuaGaji();
+                    dg.printSemuaGaji();
                     break;
-
                 case 4:
                     System.exit(0);
                     break;
@@ -56,3 +74,4 @@ public class main {
         } while (pilih == 1 || pilih == 2 || pilih == 3);
     }
 }
+

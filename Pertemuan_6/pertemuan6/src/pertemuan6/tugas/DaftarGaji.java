@@ -1,49 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pertemuan6.tugas;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author lenovo
- */
 public class DaftarGaji {
 
-    public Pegawai listPegawai[] ;
+    private Pegawai[] listPegawai;
+    private int currentPegawai = 0;
 
-    public DaftarGaji() {
+    public DaftarGaji(int jumlah_pegawai) {
+        listPegawai = new Pegawai[jumlah_pegawai];
     }
 
-    public boolean isEmpty() {
-        return listPegawai == null;
-    }
-
-    public void addPegawai(Pegawai pegawai) {
-        if (!isEmpty()) {
-            for (int i = 0; i < listPegawai.length; i++) {
-                listPegawai[i] = pegawai;
-            }
-        } else {
+    public void addPegawai(Pegawai p) {
+        if (listPegawai.length == currentPegawai) {
             System.out.println("Data Penuh");
+        } else {
+            listPegawai[currentPegawai] = p;
+            currentPegawai++;
         }
-
     }
 
     public void printSemuaGaji() {
-        for (int i = 0; i < listPegawai.length; i++) {
-            if (isEmpty()) {
-                break;
-            } else {
-                System.out.println("nama : " + listPegawai[i].nama);
-                System.out.println("alamat : " + listPegawai[i].alamat);
-                System.out.println("nip : " + listPegawai[i].nip);
-                System.out.println("gaji : " + listPegawai[i].gaji);
-            }
+        System.out.println("||Nama||\t||Alamat||\t||Nip||\t\t||gaji||");
+        for (int i = 0; i < currentPegawai; i++) {
+            System.out.println("||" + listPegawai[i].getNama() + "||\t||" + listPegawai[i].getAlamat() + "||\t||" + listPegawai[i].getNip() + "||\t||" + listPegawai[i].getGaji() + "||");
         }
-
     }
 }
