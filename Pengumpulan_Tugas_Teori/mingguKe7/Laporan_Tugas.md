@@ -3,7 +3,7 @@
 ## Hybrid Inheritance
 
 <img src="img/hybridinheritance.png">
-<p> hybrid terdapat class yang terdaftar sebagai subclass namun class tersebut juga termasuk super seperti pada gambar class darat adalah subclass dari kendaraan namun darat adalah super class dari mobil dan motor</p>
+<p> hybrid terdapat class yang terdaftar sebagai subclass namun class tersebut juga termasuk superckass seperti pada gambar class darat adalah subclass dari kendaraan namun class darat adalah super class dari mobil dan motor</p>
 
 ## Hierarchical Inheritance
 
