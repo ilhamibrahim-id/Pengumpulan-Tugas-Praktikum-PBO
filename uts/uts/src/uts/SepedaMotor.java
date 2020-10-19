@@ -42,8 +42,12 @@ public class SepedaMotor extends Mesin {
         } 
         else {
             if (merekMotor.equalsIgnoreCase("Vario")) {
+                if (kecepatan == 0) {
+                    System.out.println("Tidak Bisa dikurangi");
+                } else{
                 super.kecepatan -= 5;
                 System.out.println(kecepatan + " Km/jam");
+                }
             } else {
                 kurangiKecepatan();
             }
