@@ -24,9 +24,9 @@ tidak bisa karena method kuliahDiKampus tidak masuk ke dalam interface icumlaude
 6. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi
 class Program menjadi seperti berikut ini:
 <br>
-&nbsp;&nbsp;jawab : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;jawab : <br>
 menambahkan method kuliahDiKampus() di class sarjana dan class pasca sarjana <br>
-&nbsp;&nbsp;<img src="img/Screenshot (343).png">
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/Screenshot (343).png">
 <br>
 
 # Percobaan 2: Multiple Interfaces Implementation
