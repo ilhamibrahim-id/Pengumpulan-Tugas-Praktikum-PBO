@@ -24,9 +24,9 @@ tidak bisa karena method kuliahDiKampus tidak masuk ke dalam interface icumlaude
 6. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi
 class Program menjadi seperti berikut ini:
 <br>
-jawab : <br>
+&nbsp;&nbsp;jawab : <br>
 menambahkan method kuliahDiKampus() di class sarjana dan class pasca sarjana <br>
-<img src="img/Screenshot (343).png">
+&nbsp;&nbsp;<img src="img/Screenshot (343).png">
 <br>
 
 # Percobaan 2: Multiple Interfaces Implementation
@@ -54,8 +54,8 @@ class intefaces tidak bisa di instasiasi objek karena interface iberprestasi buk
 menerbitkan artikel di jurnal NASIONAL, maka modifikasilah class-class yang terkait
 pada aplikasi Anda agar di class Program objek pakRektor dapat memberikan sertifikat
 mawapres pada objek sarjanaCumlaude <br>
-menambahkan method <br>
 jawab : <br>
+menambahkan method :<br>
 <img src="img/Screenshot (345).png"><br>
 maka hasilnya seperti berikut : <br>
 <img src="img/Screenshot (346).png">
