@@ -26,9 +26,9 @@ class Program menjadi seperti berikut ini:
 <br>
 jawab : <br>
 menambahkan method kuliahDiKampus() di class sarjana dan class pasca sarjana <br>
-
 <img src="img/Screenshot (343).png">
 <br>
+
 # Percobaan 2: Multiple Interfaces Implementation
 
 ## memperbaiki langkah 5 
