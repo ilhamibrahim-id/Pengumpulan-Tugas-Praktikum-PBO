@@ -30,6 +30,6 @@ public class Barrier implements IDestroyable{
 
     @Override
     public void destroyed() {
-        this.strength -= (0.1 * this.strength);
+        this.strength -= (10 * this.strength / 100);
     }
 }
